@@ -8,6 +8,7 @@ public class Soul : MonoBehaviour //This script goes on the soul
 
     private Transform playerTM;
     private Rigidbody2D soulRB;
+    private SpriteRenderer soulSR;
     private float soulX;
     private float soulY;
     private float playerX;
@@ -26,7 +27,8 @@ public class Soul : MonoBehaviour //This script goes on the soul
     {
         playerTM = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         soulRB = GetComponent<Rigidbody2D>();
-        
+        soulSR = GetComponent<SpriteRenderer>();
+        soulSR.color = Color.yellow;
     }
 
 
