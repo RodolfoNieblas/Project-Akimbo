@@ -10,9 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
   m_Name: GreenStoneFloor_1
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 4527630466713702779, guid: 7a69d0ff9e299924191c96c93ad3bd3b,
+=======
+<<<<<<< HEAD:Project Akimbo/Assets/Tiles/GreenStoneFloor_3.asset
+  m_Name: GreenStoneFloor_3
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 5795876170540364129, guid: 7a69d0ff9e299924191c96c93ad3bd3b,
+=======
+  m_Name: GreenStoneFloor_1
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 4527630466713702779, guid: 7a69d0ff9e299924191c96c93ad3bd3b,
+>>>>>>> 39a27ed94f82e7952688922ef2f9c96884a31ad4:Project Akimbo/Assets/Tiles/GreenStoneFloor_1.asset
+>>>>>>> 39a27ed94f82e7952688922ef2f9c96884a31ad4
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
