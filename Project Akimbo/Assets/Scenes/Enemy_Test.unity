@@ -428,6 +428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381615922}
   - component: {fileID: 1381615921}
+  - component: {fileID: 1381615924}
   - component: {fileID: 1381615923}
   m_Layer: 0
   m_Name: evilscientist
@@ -513,9 +514,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile_speed: 8.28
+  projectile_spread_angle: 30
+  num_of_projectiles: 5
   projectile: {fileID: 1720637330441389513, guid: 130b79326f7ee462389a6f97f284a162,
     type: 3}
-  fire_rate: 3.5
+  fire_rate: 2.5
+--- !u!114 &1381615924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381615920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77cb14a4aee34814b922e7a7bbefe67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile_speed: 8.28
+  projectile: {fileID: 1720637330441389513, guid: 130b79326f7ee462389a6f97f284a162,
+    type: 3}
+  fire_rate: 2.5
 --- !u!1 &1382822931
 GameObject:
   m_ObjectHideFlags: 0

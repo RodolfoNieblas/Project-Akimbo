@@ -2,13 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// in_progress
-public class Slime_enemy_spreadshot : MonoBehaviour
+public class enemy_snakeshot : MonoBehaviour
 {
     public float projectile_speed;
-    public int projectile_spread_angle;
-    private int angle_in_spread;
-    public int num_of_projectiles;
     Vector2 move_dir;
     
     // the target aka the Player
@@ -23,8 +19,6 @@ public class Slime_enemy_spreadshot : MonoBehaviour
     {
         no_firing = Time.time;
         target = GameObject.Find("Player");
-        // to prevent errors potentially caused by inputting negative number
-        angle_in_spread = -Mathf.Abs(projectile_spread_angle);
     }
 
     // Update is called once per frame
@@ -33,13 +27,10 @@ public class Slime_enemy_spreadshot : MonoBehaviour
         // check if it's time to fire and spawn a bullet if it is
         if (Time.time > no_firing)
         {
-            angle_in_spread = -Mathf.Abs(projectile_spread_angle);
-            for (int i = 0; i < num_of_projectiles; i++)
+            for (int i = -30; i <= 30; i += 15)
             {
-                CreateBullet(angle_in_spread);
-                angle_in_spread += (2 * Mathf.Abs(projectile_spread_angle) / (num_of_projectiles - 1));
+                CreateBullet(i);
             }
-
             no_firing = Time.time + fire_rate;
         }
     }
@@ -55,5 +46,4 @@ public class Slime_enemy_spreadshot : MonoBehaviour
         // toward the player and an offset given as an argument to the function
         rigidbody.AddForce(Quaternion.AngleAxis(angleOffset, Vector3.forward) * move_dir * 25.0f);
     }
-
 }
