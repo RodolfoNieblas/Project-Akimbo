@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// in_progress
+// script should be applied to an enemy who you want to
+// have a spreadshot fire pattern.  All public variables
+// are to adjust the behavior of the shots except for
+// projectile which requires a bullet prefab in its slot
 public class Slime_enemy_spreadshot : MonoBehaviour
 {
     public float projectile_speed;
