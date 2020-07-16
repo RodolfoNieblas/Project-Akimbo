@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: newstonefloor16bit
+  m_Name: PurpleStoneWall_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 77024e87003d01343a65f1a4eb443c18, type: 3}
+  m_Sprite: {fileID: -7504016252981201823, guid: dd21a491ce7f3844c8fce5ad3c0bc133,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
