@@ -41,14 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 4111499953
+  - name: Floor
+    uniqueID: 686542413
     locked: 0
-  - name: Enemy
-    uniqueID: 1507565817
+  - name: Walls
+    uniqueID: 4111499953
     locked: 0
   - name: Soul
     uniqueID: 583806015
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2445823891
+    locked: 0
+  - name: Enemy
+    uniqueID: 1507565817
     locked: 0
   - name: Player
     uniqueID: 3128582559

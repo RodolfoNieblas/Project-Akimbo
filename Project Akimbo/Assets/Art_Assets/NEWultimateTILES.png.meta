@@ -1,19 +1,34 @@
 fileFormatVersion: 2
-guid: 91e22d7b2168e0547ab66f9b9375a04d
+guid: dd999f8398507c94c86a14a2f8df4c01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9134485393773029496
-    second: GreenStoneFloor_0
+      213: -3156921282892359476
+    second: NEWultimateTILES_0
   - first:
-      213: 4527630466713702779
-    second: GreenStoneFloor_1
+      213: 965092194242749476
+    second: NEWultimateTILES_1
   - first:
-      213: 9197399128638664917
-    second: GreenStoneFloor_2
+      213: -3360598634896227989
+    second: NEWultimateTILES_2
   - first:
-      213: 5795876170540364129
-    second: GreenStoneFloor_3
+      213: -1422572477948009530
+    second: NEWultimateTILES_3
+  - first:
+      213: -4655854325270366252
+    second: NEWultimateTILES_4
+  - first:
+      213: 5088314288658112304
+    second: NEWultimateTILES_5
+  - first:
+      213: -2871640226960133252
+    second: NEWultimateTILES_6
+  - first:
+      213: -4326080055449835234
+    second: NEWultimateTILES_7
+  - first:
+      213: -1129780566624376187
+    second: NEWultimateTILES_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +114,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GreenStoneFloor_0
+      name: NEWultimateTILES_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8945db1dc5034d0800000000000000
+      internalID: -3156921282892359476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEWultimateTILES_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246755cc32b46d00800000000000000
+      internalID: 965092194242749476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEWultimateTILES_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b610956c851cc51d0800000000000000
+      internalID: -3360598634896227989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEWultimateTILES_3
       rect:
         serializedVersion: 2
         x: 0
@@ -113,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 878e5dda11634ce70800000000000000
-      internalID: 9134485393773029496
+      spriteID: 6c369a05ed1024ce0800000000000000
+      internalID: -1422572477948009530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenStoneFloor_1
+      name: NEWultimateTILES_4
       rect:
         serializedVersion: 2
         x: 16
@@ -134,14 +212,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b71d4bacbef55de30800000000000000
-      internalID: 4527630466713702779
+      spriteID: 4d73b40b825136fb0800000000000000
+      internalID: -4655854325270366252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenStoneFloor_2
+      name: NEWultimateTILES_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fd201f2e25d9640800000000000000
+      internalID: 5088314288658112304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEWultimateTILES_6
       rect:
         serializedVersion: 2
         x: 0
@@ -155,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d0beff07c9b3af70800000000000000
-      internalID: 9197399128638664917
+      spriteID: c73b15d9d62e528d0800000000000000
+      internalID: -2871640226960133252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenStoneFloor_3
+      name: NEWultimateTILES_7
       rect:
         serializedVersion: 2
         x: 16
@@ -176,8 +275,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 161b5335ba61f6050800000000000000
-      internalID: 5795876170540364129
+      spriteID: e19a2013c1da6f3c0800000000000000
+      internalID: -4326080055449835234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEWultimateTILES_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ae63c7f863250f0800000000000000
+      internalID: -1129780566624376187
       vertices: []
       indices: 
       edges: []
