@@ -19,11 +19,12 @@ public class enemy_snakeshot : MonoBehaviour
 
     public float fire_rate;
     float no_firing;
+    private bool up = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        no_firing = Time.time;
+        no_firing = -fire_rate;
         target = GameObject.Find("Player");
 
         // to prevent errors potentially caused by inputting negative number
@@ -31,12 +32,11 @@ public class enemy_snakeshot : MonoBehaviour
 
         InvokeRepeating("Shoot", 0f, 0.1f);
     }
-
-    // Update is called once per frame
+/*
     void Update()
     {
         // check if it's time to fire and spawn a bullet if it is
-        if (Time.time > no_firing)
+        if (no_firing >= 0)
         {
             angle_in_spread = -Mathf.Abs(projectile_spread_angle);
 
@@ -49,11 +49,27 @@ public class enemy_snakeshot : MonoBehaviour
             no_firing = Time.time + fire_rate;
         }
     }
+*/
 
     private void Shoot()
     {
         CreateBullet(angle_in_spread);
-        angle_in_spread += (2 * Mathf.Abs(projectile_spread_angle) / (num_of_projectiles - 1));
+        while (no_firing < 0)
+        {
+            if (up)
+            {
+                angle_in_spread += (2 * Mathf.Abs(projectile_spread_angle) / (num_of_projectiles - 1));
+                if (angle_in_spread >= Mathf.Abs(projectile_spread_angle))
+                    up = false;
+            }
+            else
+            {
+                angle_in_spread -= (2 * Mathf.Abs(projectile_spread_angle) / (num_of_projectiles - 1));
+                if (angle_in_spread <= -Mathf.Abs(projectile_spread_angle))
+                    up = true;
+            }
+            no_firing += 1/fire_rate;
+        }
     }
 
     private void CreateBullet(float angleOffset)

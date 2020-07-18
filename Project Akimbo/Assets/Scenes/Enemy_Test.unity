@@ -866,7 +866,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381615920}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2db9bb052a264424eaff4a5a5011c248, type: 3}
   m_Name: 
@@ -884,17 +884,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381615920}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b77cb14a4aee34814b922e7a7bbefe67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectile_speed: 8.28
-  projectile_spread_angle: 0
-  num_of_projectiles: 0
+  projectile_spread_angle: 30
+  num_of_projectiles: 10
   projectile: {fileID: 1720637330441389513, guid: 130b79326f7ee462389a6f97f284a162,
     type: 3}
-  fire_rate: 2.5
+  fire_rate: 0.66
 --- !u!1 &1382822931
 GameObject:
   m_ObjectHideFlags: 0
