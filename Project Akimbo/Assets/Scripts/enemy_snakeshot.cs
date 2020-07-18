@@ -17,7 +17,7 @@ public class enemy_snakeshot : MonoBehaviour
     // +projectile_spread_angle degrees
     public int num_of_projectiles;
     // determines how long the enemy will shoot for before pausing
-    public float shooting_length;
+    public float shooting_length = 1;
 
     // keeps track of what angle we want to offset the enemy's
     // shot towards the player by
