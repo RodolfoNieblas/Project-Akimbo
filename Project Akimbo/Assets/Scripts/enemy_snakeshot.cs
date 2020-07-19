@@ -28,7 +28,7 @@ public class enemy_snakeshot : MonoBehaviour
     // the target aka the Player
     private GameObject target;
     // what will be fired towards the player
-    [SerializeField] private GameObject projectile;
+    [SerializeField] private GameObject projectile = null;
 
     // counter to keep track of the time enemy will not fire for
     private float no_firing;
@@ -58,7 +58,7 @@ public class enemy_snakeshot : MonoBehaviour
             CreateBullet(angle_in_spread);
             if (up)
             {
-                // increment the angle at whichthe next bullet will be shot
+                // increment the angle at which the next bullet will be shot
                 angle_in_spread += (2 * projectile_spread_angle / (num_of_projectiles - 1));
                 // sweep in the other direction once we reach the upper bound
                 // of the cone
