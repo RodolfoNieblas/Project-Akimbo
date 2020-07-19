@@ -890,11 +890,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile_speed: 8.28
-  projectile_spread_angle: 30
-  num_of_projectiles: 10
+  projectile_spread_angle: 15
+  num_of_projectiles: 5
+  shooting_length: 100
   projectile: {fileID: 1720637330441389513, guid: 130b79326f7ee462389a6f97f284a162,
     type: 3}
-  fire_rate: 0.66
 --- !u!1 &1382822931
 GameObject:
   m_ObjectHideFlags: 0
