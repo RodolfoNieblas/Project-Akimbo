@@ -10,16 +10,16 @@ public class Slime_enemy_spreadshot : MonoBehaviour
 {
     public float projectile_speed;
     public int projectile_spread_angle;
-    public int num_of_projectiles;
     private int angle_in_spread;
-    private Vector2 move_dir;
+    public int num_of_projectiles;
+    Vector2 move_dir;
     
     // the target aka the Player
     GameObject target;
-    [SerializeField] GameObject projectile = null;
+    [SerializeField] GameObject projectile;
 
     public float fire_rate;
-    private float no_firing;
+    float no_firing;
 
     // Start is called before the first frame update
     void Start()
