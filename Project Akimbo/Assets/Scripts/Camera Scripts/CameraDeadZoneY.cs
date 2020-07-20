@@ -13,13 +13,13 @@ public class CameraDeadZoneY : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision){
         if(collision.CompareTag("Player")){
-            camerafollow.cameraFollowingX = false;
+            camerafollow.cameraFollowingY = false;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision){
         if(collision.CompareTag("Player")){
-            camerafollow.cameraFollowingX = true;
+            camerafollow.cameraFollowingY = true;
         }
     }
 }

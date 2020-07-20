@@ -25,14 +25,23 @@ public class CameraFollow : MonoBehaviour //this goes on the main camera
     {
         
 
-        if(cameraFollowingX == true)
+        if(cameraFollowingX == true && cameraFollowingY == true)
         {
             cameraPos = new Vector3(Player.position.x, Player.position.y, zAxis);
+        }
+        else if(cameraFollowingY == false && cameraFollowingX == false)
+        {
+            cameraPos = new Vector3(transform.position.x, transform.position.y, zAxis);
         }
         else if(cameraFollowingX == false)
         {
             cameraPos = new Vector3(transform.position.x, Player.position.y, zAxis);
         }
+        else if(cameraFollowingY == false)
+        {
+            cameraPos = new Vector3(Player.position.x, transform.position.y, zAxis);
+        }
+        
 
         transform.position = Vector3.SmoothDamp(gameObject.transform.position, cameraPos, ref velocity, dampTime);
     }

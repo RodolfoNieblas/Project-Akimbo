@@ -56,6 +56,9 @@ TagManager:
   - name: Enemy
     uniqueID: 1507565817
     locked: 0
+  - name: CoverUpWalls
+    uniqueID: 2391373905
+    locked: 0
   - name: Player
     uniqueID: 3128582559
     locked: 0
